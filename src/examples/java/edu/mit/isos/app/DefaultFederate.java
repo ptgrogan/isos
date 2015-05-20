@@ -253,14 +253,7 @@ public abstract class DefaultFederate {
 			
 			sim.addSimulationTimeListener(listener);
 			
-			String fomPath = "";
-			try {
-				fomPath = new File(getClass().getClassLoader().getResource(
-						"edu/mit/isos/app/hla/isos.xml").toURI()).getAbsolutePath();
-			} catch (URISyntaxException e) {
-				e.printStackTrace();
-				logger.error(e);
-			}
+			String fomPath = "edu/mit/isos/app/hla/isos.xml";
 
 			amb.connect("ISOS Test " + (i+1), fomPath, federateName, "Test");
 			

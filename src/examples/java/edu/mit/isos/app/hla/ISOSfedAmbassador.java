@@ -183,13 +183,13 @@ public class ISOSfedAmbassador extends ISOSdefaultAmbassador implements ISOSamba
 		logger.debug("Creating the federation execution.");
 		try {
 			rtiAmbassador.createFederationExecution(federationName, 
-					new URL[]{new File(fomPath).toURI().toURL()},
+					new URL[]{getClass().getClassLoader().getResource(fomPath)},
 					"HLAfloat64Time");
 			logger.info("Federation execution " 
 					+ federationName + " created.");
 		} catch(FederationExecutionAlreadyExists ignored) {
 			logger.trace("Federation execution already exists.");
-		} catch (RTIexception | MalformedURLException e) {
+		} catch (RTIexception e) {
 			logger.error(e);
 		}
 
