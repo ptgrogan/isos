@@ -7,6 +7,6 @@ A benchmark application is defined in the `edu.mit.isos.app.FederateController` 
 
 Please contact the author with any questions.
 
-1. Grogan, P. T., and O. L. de Weck, "The ISoS Modeling Framework for infrastructure systems simulation", *IEEE Systems Journal*, 2015, in revision.
+1. Grogan, P. T., and O. L. de Weck, "The ISoS Modeling Framework for infrastructure systems simulation", *IEEE Systems Journal*, Vol. 9, No. 4, 2015. [Link](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7096949).
 2. IEEE, "IEEE Standard for modeling and simulation (M&S) high level architecture (HLA) -- framework and rules," 2010, IEEE Std. 1516-2010.
-3. Grogan, P. T., and O. L. de Weck, "Interoperable Infrastructure Systems Simulation using the High Level Architecture (HLA)", *IEEE Systems Journal*, 2015, under review.
+3. Grogan, P. T., and O. L. de Weck, "Infrastructure System Simulation Interoperability Using the High-Level Architecture", *IEEE Systems Journal*, 2015. [Early access](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7194737).
