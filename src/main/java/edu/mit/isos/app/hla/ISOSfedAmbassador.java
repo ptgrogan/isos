@@ -77,7 +77,7 @@ import edu.mit.isos.sim.SimEntity;
  * and implements required activities for interaction with the RTI.
  * 
  * @author Paul T. Grogan, ptgrogan@mit.edu
- * @version 0.1.0
+ * @version 0.1.1
  * @since 0.1.0
  */
 public class ISOSfedAmbassador extends ISOSdefaultAmbassador implements ISOSambassador {
@@ -173,7 +173,7 @@ public class ISOSfedAmbassador extends ISOSdefaultAmbassador implements ISOSamba
 			String federateName, String federateType) {
 		logger.debug("Connecting to the RTI.");
 		try {
-			rtiAmbassador.connect(this, CallbackModel.HLA_EVOKED, "edu/mit/isos/app/hla/ohla.properties");
+			rtiAmbassador.connect(this, CallbackModel.HLA_EVOKED, "ohla.properties");
 			logger.info("Connected to the RTI.");
 		} catch(AlreadyConnected ignored) {
 		} catch (RTIexception e) {

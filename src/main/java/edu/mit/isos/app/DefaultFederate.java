@@ -59,7 +59,7 @@ import edu.mit.isos.state.ResourceTransporting;
  *  - (C,B): Dynamic location between nodes C and B
  * 
  * @author Paul T. Grogan, ptgrogan@mit.edu
- * @version 0.1.0
+ * @version 0.1.1
  * @since 0.1.0
  */
 public abstract class DefaultFederate {
@@ -253,7 +253,7 @@ public abstract class DefaultFederate {
 			
 			sim.addSimulationTimeListener(listener);
 			
-			String fomPath = "edu/mit/isos/app/hla/isos.xml";
+			String fomPath = "isos-app.xml";
 
 			amb.connect("ISOS Test " + (i+1), fomPath, federateName, "Test");
 			
